@@ -14,6 +14,7 @@ export class DataBindingComponent implements OnInit {
   public valorAtual = '';
   public valorSalvo = '';
   public isMouseOver = false;
+  public nomeDoCurso = 'Angular';
 
   getValor() {
     return 1;
